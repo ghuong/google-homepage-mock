@@ -8,16 +8,20 @@
 </head>
 <body>
   <div id="header">
-    <span><a href="#"">Gmail</a></span>
+    <span><button id="btn-login">Sign In</button></span>
+    <span><img src="images/google-apps-icon.png" alt="Google Apps Icon" id="apps"></span>
     <span><a href="#">Images</a></span>
-    <img src="images/google-apps-icon.png" alt="Google Apps Icon" id="apps">
-    <span id="sign-in"><button id="btn-sign-in">Sign In</button></span>
+    <span><a href="#"">Gmail</a></span>
   </div>
-  <img src="images/google-logo.png" alt="Google Logo" id="google-logo">
-  <form action="#">
-    <input type="text">
-    <img src="images/google-mic.png" alt="Google Microphone Icon" id="google-mic">
-  </form>
+  <div id="main">
+    <div id="logo-container"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="google-logo"></div>
+    <div id="search-container">
+      <form action="#">
+        <div id="voice-search"><a href="#"><img src="images/google-mic.png" alt="Google Microphone Icon" id="google-mic"></a></div>
+        <div id="input-pad"><input type="text"></div>
+      </form>
+    </div>
+  </div>
   <div id="footer">
     <ul id="footer-list">
       <li class="left-list"><a href="#">Advertising</a></li>
